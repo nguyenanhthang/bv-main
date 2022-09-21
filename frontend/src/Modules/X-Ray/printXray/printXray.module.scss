@@ -1,0 +1,113 @@
+.print {
+    width: 710px;
+    margin: 10px auto;
+    .print-form {
+        background-color: #fff;
+        padding-top: 10px;
+        padding: 10px 20px 0px 20px;
+        .print-form-left {
+            display: flex;
+            .print-form-logo {
+                img {
+                    width: 80px;
+                    height: 60px;
+                }
+            }
+            .print-form-infoCompany {
+                p {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .print-form-right {
+            position: relative;
+            .QRcode {
+            }
+            .idcode {
+                position: absolute;
+                top: 83%;
+                left: 14%;
+                letter-spacing: 2.8px;
+            }
+        }
+        .content {
+            .content-header {
+                margin-top: 20px;
+                text-align: center;
+                margin-bottom: 20px;
+                p {
+                    margin: 0;
+                }
+                h2 {
+                    margin: 0;
+                }
+            }
+            .content-body {
+                margin-bottom: 50px;
+            }
+            .body-result {
+                margin-bottom: 150px;
+                .title-result {
+                    font-family: 'Times New Roman', Times, serif;
+                    display: flex;
+                    justify-content: center;
+                    font-size: 2rem;
+                    font-weight: bold;
+                }
+            }
+            span {
+                margin-left: 2px;
+            }
+            .content-footer {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 50px;
+                // align-items: center;
+                .user {
+                    margin-left: 30px;
+                }
+                .reception {
+                    margin-right: 30px;
+                    text-align: center;
+                    h4 {
+                        margin-top: 10px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+.header-title {
+    font-weight: bold;
+    color: green;
+}
+.layOut {
+    display: flex;
+    justify-content: space-between;
+    .infoUser-phone {
+        margin-right: 7rem;
+    }
+    .infoUser-sex {
+        margin-right: 14rem;
+    }
+}
+.description {
+    margin-left: 12px;
+    white-space: pre-line;
+    margin-bottom: 1.8rem;
+}
+.conclusion {
+    font-weight: 600;
+}
+.result-conclusion {
+    font-size: 1.8rem;
+    font-family: serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-time{
+    font-size: 1.8rem;
+}

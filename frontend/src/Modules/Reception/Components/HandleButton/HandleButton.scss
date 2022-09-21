@@ -1,0 +1,11 @@
+.Handle__Button{
+    display: flex;
+    justify-content: flex-end;
+    .Handle__Button__child{
+        margin: 20px;
+        padding: 8px;
+    }
+    .Handle__Button__child__text{
+        font-size:large
+    }
+}

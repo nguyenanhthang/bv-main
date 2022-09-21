@@ -1,0 +1,46 @@
+.patientSearch__Receptionist {
+  position: relative;
+  width: 100%;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  background-color: #fff;
+  outline: none;
+  .patientSearch__groupItem {
+    input {
+      width: 100%;
+      height: 40px;
+      outline: none;
+      border: 1px solid rgb(187, 187, 187);
+      padding-left: 10px;
+    }
+  }
+  .patientSearch {
+    color: green;
+    font-weight: 600;
+  }
+  .faMagnifyingGlass {
+    color: green;
+  }
+  .search-form {
+    top: 98%;
+    width: 100%;
+
+    position: absolute;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    #searchList {
+      max-height: 200px;
+      overflow-y: scroll;
+      .search-item {
+        list-style: none;
+        &:hover {
+          cursor: pointer;
+          background-color: #ccc;
+        }
+      }
+    }
+    .close-search {
+      display: none;
+    }
+  }
+}

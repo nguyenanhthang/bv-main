@@ -1,0 +1,78 @@
+.Nav-container{
+    margin: 0;
+    padding-left: 0;
+
+    .appHeaderContainer {
+        width: 100%;
+        min-height: 115px;
+        color:#064e28;
+        background: rgb(10, 145, 10);
+        justify-content: space-between;
+        box-shadow: 0px 0px 5px #064e28;
+        padding-bottom: 2px;
+        list-style-type: none;
+            .divLogo{
+                // margin: 0px 0px 0px 30px;
+            
+            .logo-header {
+                height: 15px;
+                width: 15px;
+               
+                .logo-bv{
+                    width: 100px; 
+                    margin: 22px 0px 0px 20px;
+                }
+             }
+            }
+            .List-Nav{
+                display: inline-flex;
+              
+                // margin-left: 150px;
+                flex-wrap: wrap;
+                padding: 0 6px;
+                a {
+                    color: white;
+                    text-transform: uppercase;
+                    height: 10px;
+          
+                li{
+                border: 1px solid white;
+
+                }
+
+                }
+                a, p {
+                    // width: 142px;
+                    padding: 16px 0px 0px 1px;
+
+                    // border: 1px solid white;
+                }
+
+               
+                p{
+                    color: white;
+                    font-size: 14px;
+                    margin-right: 1px;
+                    padding-top: 10px;
+                }
+                .pointer{
+                    width: 142px;
+                    height: 112px;
+                    text-align: center;
+                    margin: 0 10px;
+                    border-left: 1px solid white;
+                    border-right: 1px solid white;
+                    border-radius: 10px;
+                   
+                    .Icon-navbar{
+                         margin: 0px 6px 0px 0px;
+                    }
+                }
+                .pointer:hover {
+                    cursor: pointer;
+                    background-color: #087c3f;
+                }
+            }
+    }   
+
+}

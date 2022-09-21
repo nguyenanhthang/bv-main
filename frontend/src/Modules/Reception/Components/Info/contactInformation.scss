@@ -1,0 +1,51 @@
+.contact{
+    background-color: #fff;
+    width: 44vw;
+    height: 350px;
+    .contactInformation__user {
+        padding-top: 5px;
+        border-radius: 5px;
+        .contactInformation__user span {
+            font-weight: 600;
+            color: green;
+          }
+        .contactInformation__user__col {
+            margin-top: 20px;
+                .contactInformation__user__col span {
+                    font-size: large;
+                }
+                    #icon__user {
+                        margin: 0 10px 0 10px;
+                        color: green;
+                    }
+        }
+        .contactInformation .star {
+            color: red;
+        }
+            .contactInformation__col {
+                margin: 20px 20px 0 20px;
+                    .contactInformation__row {
+                        margin-top: 10px;
+                        .countrySelect {
+                            width: 100%;
+                            height: 40px;
+                            border-radius: 5px;
+                            border: 1px solid rgb(187, 187, 187);
+                           
+                        }
+                    }
+                    .contactInformation__row input {
+                        width: 100%;
+                        height: 40px;
+                        outline: none;
+                        border-radius:5px;
+                        border: 1px solid rgb(187, 187, 187);
+                        padding-left: 10px;
+                    }
+                   
+        }
+    }
+    
+
+}    
+

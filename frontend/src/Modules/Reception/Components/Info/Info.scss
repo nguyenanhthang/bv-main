@@ -1,0 +1,53 @@
+.information__user{
+    width: 44vw;
+    height: 350px;
+    background-color: #fff;
+    border-radius:5px;
+    padding-top: 5px;
+    .information__user span{
+        font-weight: 600;
+        color: green;
+    }
+    .information .star{
+        color: red;
+    }
+        .information__user__col{
+            margin-top: 20px;
+            .information__user__col span{
+                font-size: large;
+            }
+            #icon__user{
+                margin: 0 10px 0 10px;
+                color: green;
+            }
+        }
+        .information__col{
+            margin: 20px;
+            .information__row {
+                margin-top: 10px;
+                .information__row__select{
+                        width: 100%;
+                        height: 40px;
+                        border-radius: 5px;
+                        border: 1px solid rgb(187, 187, 187);
+                }
+                .get__age{
+                    height: 40px;
+                    line-height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    background-color: #28b76b;
+                    color: #fff;
+                    border-radius: 5px;
+                }
+            }
+            .information__row input{
+                width: 100%;
+                height: 40px;
+                outline: none;
+                border-radius:5px;
+                border: 1px solid rgb(187, 187, 187);
+                padding-left: 10px;
+            }
+        }
+}

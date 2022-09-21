@@ -1,0 +1,62 @@
+.list__patient-waiting{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    color:var(--text);
+    margin-top: 8px;
+    background-color: #f4f6f9;
+    padding: 15px;
+    height: 500px;
+    border-radius: 14px;
+    .list-title{
+        color: var(--text);
+        font-weight: 600;
+        cursor: pointer;
+        user-select: none;
+    }
+    .content{
+        margin-top: 15px;
+        .content-left{
+            background-color: #ffffff;
+        }
+        NavLink{
+            color: var(--text);
+            font-weight: 600;
+        }
+    }
+}
+table, th, td {
+    border: 1px solid rgb(182, 182, 182);
+    border-collapse: collapse;
+    user-select: none;
+}
+th{
+    background-color: green;
+    color:#ffffff;
+    text-align: center;
+}
+.Presult{
+    tr{
+        &:hover{
+            background-color: #f4f6f9;
+        }
+        cursor: pointer;
+    }
+}
+td{
+    color:#000000;
+    text-align: center;
+
+}
+.active{
+    color:var(--text)
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    color: var(--text);
+    font-weight: 600;
+}
+.activeColor{
+    background-color: green;
+    color:#f4f6f9
+}

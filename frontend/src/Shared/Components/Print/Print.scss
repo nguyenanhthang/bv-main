@@ -1,0 +1,93 @@
+.print {
+  width: 710px;
+  margin: 10px auto;
+  .print-form {
+    border: 1px solid #000;
+    background-color: #fff;
+    padding-top: 10px;
+    padding: 10px 20px 50px 20px;
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+  
+      .print-form-left {
+        display: flex;
+        .print-form-logo {
+          img {
+            width: 80px;
+            height: 60px;
+          }
+        }
+        .print-form-infoCompany {
+          p {
+            margin-bottom: 0;
+          }
+        }
+      }
+      .print-form-right {
+        position: relative;
+
+        .QRcode {
+        }
+        .idcode {
+          position: absolute;
+          top: 83%;
+          left: 14%;
+          letter-spacing: 2.8px;
+        }
+      }
+    }
+    .content {
+      .content-header {
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        p {
+          margin: 0;
+        }
+        h2 {
+          margin: 0;
+        }
+      }
+      .content-body {
+        margin-bottom: 250px;
+        .info-sevice-stt {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .info-sevice {
+          }
+          .info-stt {
+            margin-right: 30px;
+            border: 1px solid #000;
+            padding: 12px;
+            text-align: center;
+          }
+        }
+        div {
+          margin-top: 5px;
+        }
+      }
+      span {
+        margin-left: 2px;
+      }
+      .content-footer {
+        display: flex;
+        justify-content: space-between;
+        // align-items: center;
+        .user {
+          margin-left: 30px;
+        }
+        .reception {
+          margin-right: 30px;
+          text-align: center;
+          h4 {
+            margin-top: 10px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
